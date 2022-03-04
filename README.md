@@ -20,9 +20,9 @@ You can customize the **delay** according to the speed in which you plug the **B
 # Getting Started ✔️
 ## Requirments
 1. Install **Arduino software** [here](https://www.arduino.cc/en/software).
-2. Have a **Gmail** and enable **less secure app** [here](https://www.google.com/settings/security/lesssecureapps).
+2. Have a **Gmail** account and enable **less secure app** [here](https://www.google.com/settings/security/lesssecureapps).
 ## Install
-1. Download this repo
+1. Download this repository
 **Linux :**
 ```
 git clone https://github.com/tuconnaisyouknow/ChromePassStealer
