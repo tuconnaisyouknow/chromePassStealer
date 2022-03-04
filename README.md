@@ -19,7 +19,9 @@ When the script is executed the person who plugged **BadUsb** see his computer w
 You can customize the **delay** according to the speed in which you plug the **BadUSB**.
 # Getting Started ✔️
 ## Requirments
-1. Install **Arduino software** [here](https://www.arduino.cc/en/software).
+1. Have a **BadUSB**
+
+2. Install **Arduino software** [here](https://www.arduino.cc/en/software).
 
 2. Have a **Gmail** account and enable **less secure app** [here](https://www.google.com/settings/security/lesssecureapps).
 ## Install
