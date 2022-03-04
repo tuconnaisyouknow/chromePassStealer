@@ -3,7 +3,7 @@ This project allows you to steal passwords from **Google Chrome** and get all th
 # Warning ⚠️
 Everything in this repository is **strictly** for educational purposes. Notice **I am not responsible** for stolen data. **You are responsible** for your actions using developed script for **BadUSB**
 # About ℹ️
-Most people who are not well informed about the **computer science** world save their **passwords** on **Google Chrome** for convenience. This script uses these **weaknesses** to **steal** all **passwords** saved by **Google Chrome** users. The script makes your **BadUSB** disable **Windows** **passwords** by powershell command line, then it opens **Google Chrome** and download a **.csv** file with all **Chrome passwords** by **Windows shortcuts**. Once this file is downloaded, the **BadUSB** send this file by **mail** from powershell command line. To end up the script delete **.csv** file and close **Google Chrome** and powershell.
+Most people who are not well informed about **computer science** save their **passwords** on **Google Chrome** for convenience. This script uses these **weaknesses** to **steal** all **passwords** saved by **Google Chrome** users. The script makes your **BadUSB** disable **Windows** **passwords** by powershell command line, then it opens **Google Chrome** and download a **.csv** file with all **Chrome passwords** by **Windows shortcuts**. Once this file is downloaded, the **BadUSB** send this file by **mail** from powershell command line. To end up the script delete **.csv** file and close **Google Chrome** and powershell.
 ### NB n°1
 Sometimes, you will see something like this : 
 ``` 
