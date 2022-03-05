@@ -12,7 +12,7 @@ Keyboard.press(KEY_LEFT_ALT);
 Keyboard.press(173);
 Keyboard.releaseAll(); 
 ```
-This is only to write these characters : "@", "\\"
+This is only to write these characters : "@", "\\". But it depends on the computer's layout, so adapt these characters thanks to this [site](https://www.csee.umbc.edu/portal/help/theory/ascii.txt) and the sequence you actually use to wirte these characters with your keyboard. (or switch the keyboard layout to French)
 ### NB n°2
 When the script is executed the person who plugged **BadUsb** see his computer working alone so this script isn't optimized yet.
 ### NB n°3
@@ -41,6 +41,6 @@ cd ChromePassStealer
 4. Find a victim and enjoy !
 ## Requirments for victim PC
 * Turn off caps lock
-* Switch the keyboard layout to English
+* Switch the keyboard layout to French (or adapt the code according to your layout)
 # Help Me ⛑️
 If you want to help me, I want to make the script run in background and do all it do from Chrome directly from powershell. Thanks to your contribution !
